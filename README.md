@@ -1,7 +1,7 @@
 # Exploring Unit Testing on Arduino / ESP32
 
 ## Overview 
-In this project I'm exploring [Unit Testing](https://docs.platformio.org/en/latest/advanced/unit-testing/index.html) for an embedded system.
+In this project I'm exploring [Unit Testing](https://docs.platformio.org/en/latest/advanced/unit-testing/index.html).
 
 I'm using the [Unity framework](https://docs.platformio.org/en/latest/advanced/unit-testing/frameworks/unity.html) for C in this version running in a VS Code environment with PlatformIO to talk to an ESP32 dev board. 
 
