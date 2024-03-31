@@ -48,6 +48,6 @@ Free for others to use at their own risk. No warrantee offered or implied.
 
 
 
-I hope this might be helpful. 
-Cheers! -- John
+I hope it's helpful. 
+Regards! - John
 
