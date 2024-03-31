@@ -1,5 +1,6 @@
 # Exploring Unit Testing on Arduino / ESP32
 
+## Overview 
 In this project I'm looking to explore how unit testing works for embedded systems.
 
 I'm using the [Unity framework](https://docs.platformio.org/en/latest/advanced/unit-testing/frameworks/unity.html) for C in this version running in a VS Code environment with PlatformIO to talk to an ESP32 dev board. 
@@ -33,8 +34,13 @@ test_ignore = test_embedded
 
 In this example project, I've put together a little brain-dead math library (add, subtract and divide) and a library for turning on and off an LED. 
 
+## Screenshot
 
-## LICENSE
+Terminal output: 
+![Screenshot](doc/test_results.png)
+
+
+## License
 
 Free for others to use at their own risk. No warrantee offered or implied. 
 

@@ -19,6 +19,7 @@ void test_turn_on(void)
     int expected = 1;
     int actual = getBlinky();
     TEST_ASSERT_EQUAL(expected, actual);
+    delay(100);
 }
 
 void test_turn_off(void)
@@ -27,6 +28,7 @@ void test_turn_off(void)
     int expected = 0;
     int actual = getBlinky();
     TEST_ASSERT_EQUAL(expected, actual);
+    delay(100);
 }
 
 int runUnityTests(void)
