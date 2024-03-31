@@ -36,6 +36,8 @@ In this example project, I've put together a little brain-dead math library (add
 
 ## Screenshot
 
+Notice the difference below in testing speed between the two environments. Download time to the ESP takes a while before the tests can start. 
+
 Terminal output: 
 ![Screenshot](doc/test_results.png)
 
