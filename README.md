@@ -2,7 +2,7 @@
 
 In this project I'm looking to explore how unit testing works for embedded systems.
 
-I'm using the Unity framework for C in this version running in a VS Code environment with PlatformIO to talk to an ESP32 dev board. 
+I'm using the [Unity framework](https://docs.platformio.org/en/latest/advanced/unit-testing/frameworks/unity.html) for C in this version running in a VS Code environment with PlatformIO to talk to an ESP32 dev board. 
 
 Tests can be partitioned into tests that run on the target hardware and tests that could be run on the development (desktop) system. 
 
