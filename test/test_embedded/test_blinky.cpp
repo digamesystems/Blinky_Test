@@ -2,30 +2,35 @@
 #include <unity.h>
 #include <stdexcept>
 
-void setUp(void) {
-  // set stuff up here    
+void setUp(void)
+{
+    // set stuff up here
     setupBlinky();
 }
 
-void tearDown(void) {
-  // clean stuff up here
+void tearDown(void)
+{
+    // clean stuff up here
 }
 
-void test_turn_on(void) {
+void test_turn_on(void)
+{
     setBlinky(true);
     int expected = 1;
     int actual = getBlinky();
     TEST_ASSERT_EQUAL(expected, actual);
 }
 
-void test_turn_off(void) {
+void test_turn_off(void)
+{
     setBlinky(false);
     int expected = 0;
     int actual = getBlinky();
     TEST_ASSERT_EQUAL(expected, actual);
 }
 
-int runUnityTests(void) {
+int runUnityTests(void)
+{
     UNITY_BEGIN();
     RUN_TEST(test_turn_off);
     RUN_TEST(test_turn_on);
@@ -34,11 +39,12 @@ int runUnityTests(void) {
     return UNITY_END();
 }
 
-
-void setup() {
+void setup()
+{
     runUnityTests();
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
+void loop()
+{
+    // put your main code here, to run repeatedly:
 }

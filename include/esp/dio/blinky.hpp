@@ -5,20 +5,19 @@
 
 #define LED_PIN 2
 
-void setupBlinky() {
-  pinMode(LED_PIN, OUTPUT);
+void setupBlinky()
+{
+    pinMode(LED_PIN, OUTPUT);
 }
 
-void setBlinky(bool on) {
-  digitalWrite(LED_PIN, on ? HIGH : LOW);
+void setBlinky(bool on)
+{
+    digitalWrite(LED_PIN, on ? HIGH : LOW);
 }
 
-int getBlinky() {
-  return digitalRead(LED_PIN);
-}   
-
-
-
-
+int getBlinky()
+{
+    return digitalRead(LED_PIN);
+}
 
 #endif // BLINKY_H
