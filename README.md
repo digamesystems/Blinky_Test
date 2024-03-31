@@ -5,7 +5,9 @@ In this project, I'm exploring [Unit Testing](https://docs.platformio.org/en/lat
 
 I'm using the [Unity framework](https://docs.platformio.org/en/latest/advanced/unit-testing/frameworks/unity.html) for C, running in a VS Code environment with PlatformIO, to talk to an ESP32 dev board. 
 
-Tests are partitioned into those that run on the target hardware and those that run on the development (desktop) system. **Note**: to run tests on your development system, you'll need to configure your environment to have the necessary development toolchain, GCC, etc. for 'Native' development. More details can be found [here:](https://docs.platformio.org/en/latest/platforms/native.html). 
+Tests are partitioned into those that run on the target hardware and those that run on the development (desktop) system. 
+
+**NOTE**: to run tests on your development system, you'll need to configure your environment to have the necessary development toolchain, GCC, etc. for 'Native' development. More details can be found [here:](https://docs.platformio.org/en/latest/platforms/native.html). 
 
 These tests are found in the `/test` directory tree under 
 `/test/test_desktop` and `/test/test_embedded`, respectively.
