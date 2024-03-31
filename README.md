@@ -45,7 +45,9 @@ Terminal output:
 
 ## Next
 
-Apparently, there is a way to integrate this test flow into GitHub Actions as part of a CI pipeline. -- That's the next step... Any guidance from those that have cracked this would be appreciated! :) 
+Apparently, there is a way to integrate this test flow into GitHub Actions as part of a CI pipeline. -- That's the next step... Any guidance from those that have cracked this would be appreciated! 
+
+:) 
 
 ## License
 
