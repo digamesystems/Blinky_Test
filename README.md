@@ -48,5 +48,6 @@ Free for others to use at their own risk. No warrantee offered or implied.
 
 
 
-_I hope this might be helpful for folks starting out. Cheers! -- John _
+I hope this might be helpful. 
+Cheers! -- John
 
