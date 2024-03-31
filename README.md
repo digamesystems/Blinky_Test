@@ -43,7 +43,9 @@ Notice the difference below in testing speed between the two environments. Uploa
 Terminal output: 
 ![Screenshot](doc/test_results.png)
 
+## Next
 
+Apparently, there is a way to integrate this test flow into GitHub Actions as part of a CI pipeline. -- That's the next step... 
 ## License
 
 Free for others to use at their own risk. No warrantee offered or implied. 
