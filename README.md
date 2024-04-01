@@ -12,7 +12,7 @@ Tests are partitioned into those that run on the target hardware and those that 
 These tests are found in the `/test` directory tree under 
 `/test/test_desktop` and `/test/test_embedded`, respectively.
 
-The model is interesting. The test trees are sort of mini-projects with their own `main` function for `test_desktop` tests. For `test_embedded` tests, we have the usual Arduino `setup()` and `loop()` functions. 
+The model is interesting. The test trees are sort of mini-projects with their own `main()` function for `test_desktop` tests. For `test_embedded` tests, we have the usual Arduino `setup()` and `loop()` functions. 
 
 By dividing the unit tests up like this, functionality that doesn't require the special features of the embedded processor can be tested much more quickly, lending itself to more of a TTD approach. 
 
