@@ -3,7 +3,7 @@
 ## Overview 
 In this project, I'm exploring [Unit Testing](https://docs.platformio.org/en/latest/advanced/unit-testing/index.html).
 
-I'm using the [Unity framework](https://docs.platformio.org/en/latest/advanced/unit-testing/frameworks/unity.html) for C, running in a VS Code environment with PlatformIO, to talk to an ESP32 dev board. 
+I'm using the [Unity Framework](https://github.com/ThrowTheSwitch/Unity) also documented by [PlatformIO](https://docs.platformio.org/en/latest/advanced/unit-testing/frameworks/unity.html) for C, running in a VS Code environment with PlatformIO, to talk to an ESP32 dev board. 
 
 Tests are partitioned into those that run on the target hardware and those that run on the development (desktop) system. 
 
