@@ -49,7 +49,7 @@ Apparently, there is a way to integrate this test flow into GitHub Actions as pa
 
 :) 
 
-## License
+## [License](/LICENCE)
 
 Free for others to use at their own risk. No warrantee offered or implied. 
 
